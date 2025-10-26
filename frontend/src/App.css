@@ -1,0 +1,95 @@
+.app {
+  background-color: #111;
+  color: white;
+  text-align: center;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 2rem;
+  color: #4ea8de;
+  margin-bottom: 20px;
+}
+
+/* 🧱 Parallel layout container */
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  flex-wrap: wrap; /* responsive layout */
+}
+
+/* LEFT webcam container */
+.camera-container {
+  position: relative;
+  border: 3px solid #4ea8de;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(78, 168, 222, 0.6);
+}
+
+.webcam {
+  width: 640px;
+  height: 480px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.emotion {
+  font-size: 1.2rem;
+  color: #ffdf6c;
+}
+
+.confidence {
+  font-size: 0.9rem;
+  color: #ddd;
+}
+
+.error {
+  color: #ff4d4d;
+  font-weight: bold;
+}
+
+/* RIGHT chart container */
+.chart-container {
+  width: 640px;
+  height: 480px;
+  background: #1b1b1b;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(78, 168, 222, 0.4);
+}
+
+.chart-container h2 {
+  margin-bottom: 10px;
+  color: #9ae6ff;
+}
+
+.no-data {
+  color: #bbb;
+}
+
+.footer {
+  margin-top: 30px;
+  color: #888;
+  font-size: 0.9rem;
+}
+
+/* Chart tick labels */
+.recharts-cartesian-axis-tick-value {
+  fill: #ccc;
+  font-size: 12px;
+}
