@@ -44,6 +44,17 @@ git clone https://github.com/yourusername/parking-slot-detection.git
 cd parking-slot-detection
 
 ### 🔹 Step 2: Create a Virtual Environment (Optional but Recommended)
-
+```
+### 🔹 Step 2: Create a Virtual Environment (Optional but Recommended)
 ```bash
 python -m venv venv
+```
+Activate the environment:
+Windows:
+```bash
+venv\Scripts\activate
+```
+Linux / macOS
+```bash
+source venv/bin/activate
+```
