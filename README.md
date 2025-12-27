@@ -69,12 +69,16 @@ Place the files inside the project directory:
 mask_1920_1080.png
 parking_video.mp4
 ```
-## ⚠️ Special Note (Dataset Download)
+ ⚠️ Dataset Download
 > 📂 **Dataset Source (Google Drive)**  
 > The dataset required for this project (parking video and mask image) is hosted on Google Drive.
 🔗 **Download Link:**  
 https://drive.google.com/drive/folders/1lfOwVNvOLFn0IUQ2EQw2FE-9GCfwWI4l
 ### 🔹 Step 5: Download the Image classification Model:
-> Model required for this project is hosted on google drive .
+> Model required for this project is hosted on google drive and place the files inside the project directory.
 🔗 **Download Link:**  
 [https://drive.google.com/drive/folders/1lfOwVNvOLFn0IUQ2EQw2FE-9GCfwWI4l](https://drive.google.com/drive/folders/1IoBflzIE79gRGLLwfgvJgoYzhn1GF4n-)
+### 🔹 Step 6: Run the Project:
+```bash
+python main.py
+```
