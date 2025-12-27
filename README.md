@@ -40,7 +40,7 @@ The system is designed for **fixed-camera parking environments** such as basemen
 ### 🔹 Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/parking-slot-detection.git
+https://github.com/Sharmi007/Real_Time_Parking_Slot_Detection_using_Computer_Vision.git
 cd parking-slot-detection
 ```
 ### 🔹 Step 2: Create a Virtual Environment (Optional but Recommended)
@@ -58,7 +58,7 @@ source venv/bin/activate
 ```
 ### 🔹 Step 3: Install Required Dependencies:
 ```bash
-pip install opencv-python numpy
+pip install -r requirements.txt
 ```
 ### 🔹 Step 4: Prepare the Dataset:
 Ensure the following files are available:
@@ -89,3 +89,44 @@ python main.py
   - 🟥 Red → Occupied slots
 - Live counts of total, vacant, and occupied slots are shown on the video.
 - Press q to stop execution and close the window.
+---
+## 🧠 Project Explanation (How It Works)
+This project uses classical computer vision and mathematical concepts to efficiently solve a real-world parking problem.
+### 1️⃣ Fixed Camera Assumption:
+The system assumes:
+- The camera is static
+- Parking slot positions do not change
+This allows slot locations to be computed once, improving efficiency.
+### 2️⃣ Binary Mask Image
+A binary mask image is created where:
+- White (255) → Parking slots
+- Black (0) → Background
+The mask permanently defines the regions to be analyzed.
+### 3️⃣ Connected Components Analysis
+OpenCV’s connectedComponentsWithStats() is applied to the mask.
+This:
+- Identifies each connected white region
+- Treats each region as one parking slot
+- Extracts bounding box coordinates for slot-level processing
+### 4️⃣ Frame Skipping Optimization
+Slot classification is performed every N frames instead of every frame.
+```bash
+if frame_number % step == 0:
+```
+---
+## 🏙️ Applications
+
+- Smart parking systems
+- Smart city infrastructure
+- Traffic management
+- CCTV-based parking monitoring
+---
+## 🔮 Future Improvements
+- Improved robustness to shadows and lighting
+- Web-based dashboard integration
+- Multi-camera support
+
+👤 Author
+Sharmistha Hui
+Computer Vision | Python | OpenCV
+GitHub: https://github.com/Sharmi007
