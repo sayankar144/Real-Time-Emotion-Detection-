@@ -69,7 +69,8 @@ Place the files inside the project directory:
 mask_1920_1080.png
 parking_video.mp4
 ```
-> ⚠️ **Special Note**  
-> - The camera must remain stationary for correct parking slot detection.  
-> - Ensure the mask image matches the video resolution exactly.  
-> - Performance may vary under extreme lighting conditions.
+## ⚠️ Special Note (Dataset Download)
+> 📂 **Dataset Source (Google Drive)**  
+> The dataset required for this project (parking video and mask image) is hosted on Google Drive.
+🔗 **Download Link:**  
+https://drive.google.com/drive/folders/1lfOwVNvOLFn0IUQ2EQw2FE-9GCfwWI4l
