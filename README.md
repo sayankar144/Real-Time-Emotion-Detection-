@@ -74,3 +74,7 @@ parking_video.mp4
 > The dataset required for this project (parking video and mask image) is hosted on Google Drive.
 🔗 **Download Link:**  
 https://drive.google.com/drive/folders/1lfOwVNvOLFn0IUQ2EQw2FE-9GCfwWI4l
+### 🔹 Step 5: Download the Image classification Model:
+> Model required for this project is hosted on google drive .
+🔗 **Download Link:**  
+[https://drive.google.com/drive/folders/1lfOwVNvOLFn0IUQ2EQw2FE-9GCfwWI4l](https://drive.google.com/drive/folders/1IoBflzIE79gRGLLwfgvJgoYzhn1GF4n-)
