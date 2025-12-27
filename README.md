@@ -69,3 +69,7 @@ Place the files inside the project directory:
 mask_1920_1080.png
 parking_video.mp4
 ```
+> ⚠️ **Special Note**  
+> - The camera must remain stationary for correct parking slot detection.  
+> - Ensure the mask image matches the video resolution exactly.  
+> - Performance may vary under extreme lighting conditions.
