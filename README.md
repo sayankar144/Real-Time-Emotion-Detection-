@@ -43,4 +43,7 @@ The system is designed for **fixed-camera parking environments** such as basemen
 git clone https://github.com/yourusername/parking-slot-detection.git
 cd parking-slot-detection
 
+### 🔹 Step 2: Create a Virtual Environment (Optional but Recommended)
 
+```bash
+python -m venv venv
