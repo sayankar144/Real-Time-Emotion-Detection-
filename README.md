@@ -1,5 +1,35 @@
-## Data
+# 🚗 Real-Time Parking Slot Detection using OpenCV & Python
 
-You can download the **dataset** and the **pre-trained model** used in this tutorial from the link below:
+A real-world **computer vision project** that detects **vacant and occupied parking slots in real time** using **Python and OpenCV**, without relying on any external machine learning or deep learning libraries.  
+The system is designed for **fixed-camera parking environments** such as basement parking lots or CCTV-based setups.
 
-👉 [Download data and model](https://www.youtube.com/watch?v=F-884J2mnOY&t=3411s)
+---
+
+## 📌 Features
+
+- Real-time parking slot occupancy detection  
+- Mask-based fixed parking slot localization  
+- Region-wise image processing (slot-level analysis)  
+- Live counting of:
+  - Total parking slots  
+  - Vacant slots  
+  - Occupied slots  
+- Color-coded visualization:
+  - 🟩 Green → Vacant slot  
+  - 🟥 Red → Occupied slot  
+- Optimized for real-time CPU performance  
+- No external ML/DL frameworks used  
+
+---
+
+## 🧰 Tech Stack
+
+- Python  
+- OpenCV  
+- NumPy  
+
+---
+
+## 📁 Project Structure
+
+
