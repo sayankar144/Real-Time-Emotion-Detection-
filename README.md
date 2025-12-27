@@ -61,3 +61,11 @@ source venv/bin/activate
 pip install opencv-python numpy
 ```
 ### 🔹 Step 4: Prepare the Dataset:
+Ensure the following files are available:
+- Binary mask image defining parking slots
+- Parking lot video recorded from a fixed camera
+Place the files inside the project directory:
+```bash
+mask_1920_1080.png
+parking_video.mp4
+```
