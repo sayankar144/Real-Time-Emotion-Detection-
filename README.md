@@ -30,11 +30,6 @@ The system is designed for **fixed-camera parking environments** such as basemen
 
 ---
 
-## 📁 Project Structure
-
-
----
-
 ## ⚙️ How to Run the Project (Local Machine)
 
 ### 🔹 Step 1: Clone the Repository
