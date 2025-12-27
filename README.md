@@ -82,3 +82,10 @@ https://drive.google.com/drive/folders/1lfOwVNvOLFn0IUQ2EQw2FE-9GCfwWI4l
 ```bash
 python main.py
 ```
+### 🔹 Step 7: View Output:
+- A video window will open displaying:
+  - Parking slots marked with bounding boxes
+  - 🟩 Green → Vacant slots
+  - 🟥 Red → Occupied slots
+- Live counts of total, vacant, and occupied slots are shown on the video.
+- Press q to stop execution and close the window.
