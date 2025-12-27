@@ -42,8 +42,6 @@ The system is designed for **fixed-camera parking environments** such as basemen
 ```bash
 git clone https://github.com/yourusername/parking-slot-detection.git
 cd parking-slot-detection
-
-### 🔹 Step 2: Create a Virtual Environment (Optional but Recommended)
 ```
 ### 🔹 Step 2: Create a Virtual Environment (Optional but Recommended)
 ```bash
@@ -58,3 +56,8 @@ Linux / macOS
 ```bash
 source venv/bin/activate
 ```
+### 🔹 Step 3: Install Required Dependencies:
+```bash
+pip install opencv-python numpy
+```
+### 🔹 Step 4: Prepare the Dataset:
